@@ -5,7 +5,7 @@
     'prefix': 'apd-header'
     'body': '@apiHeader ${1:[(group)]} ${2:[{type}]} ${3:field}${4:=defaultValue} ${5:[description]}'
   
-  'apidoc header':
+  'apidoc header opt':
     'prefix': 'apd-header-opt'
     'body': '@apiHeader ${1:[(group)]} ${2:[{type}]} [${3:field}${4:=defaultValue}] ${5:[description]}'
 

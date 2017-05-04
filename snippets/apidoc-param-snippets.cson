@@ -5,7 +5,7 @@
     'prefix': 'apd-param'
     'body': '@apiParam ${1:[(group)]} ${2:[{type}]} ${3:field}${4:=defaultValue} ${5:[description]}'
     
-  'apidoc param':
+  'apidoc param opt':
     'prefix': 'apd-param-opt'
     'body': '@apiParam ${1:[(group)]} ${2:[{type}]} [${3:field}${4:=defaultValue}] ${5:[description]}'
 
